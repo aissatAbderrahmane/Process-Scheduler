@@ -1,7 +1,7 @@
 # Process-Scheduler
  a simulator for process scheduling based on javaFx
 
-# About rocess-Scheduler
+# About Process-Scheduler
  :pushpin: No recheck  or fix ... just upload.
  
  :pencil2: This is university project in Operating system module.
