@@ -1,0 +1,92 @@
+.startIMG{
+	-fx-background-image: url("../icons/SDO.jpg");
+}
+.Enter{
+		-fx-graphic: url("../icons/Enter.png");
+    	-fx-background-color: transparent;
+    	-fx-text-fill:#8698e8;
+}
+.Exit{
+		-fx-graphic: url("../icons/Exit.png");
+    	-fx-background-color: transparent;
+    	-fx-text-fill:#8698e8;
+}
+.Enter:hover,.Exit:hover{
+	    -fx-background-color: #162878;
+    	-fx-background-radius:4;
+    	-fx-text-fill:#ffffff;
+}
+.ProcessusLogo{
+	-fx-graphic: url("../icons/ProcessusTitle.png");
+}
+.CPULogo{
+	-fx-graphic: url("../icons/CPUTitle.png");
+}
+.addButton{
+	    -fx-graphic: url("../icons/add.png");
+    	-fx-background-color: transparent;
+}
+.addButton:hover{
+	    -fx-graphic: url("../icons/add_hover.png");
+    	-fx-background-color: #162878;
+    	-fx-background-radius:4;
+}
+.editButton{
+	    -fx-graphic: url("../icons/edit.png");
+    	-fx-background-color: transparent;	
+}
+.editButton:hover{
+	    -fx-graphic: url("../icons/edit_hover.png");
+    	-fx-background-color: #162878;
+    	-fx-background-radius:4;
+}
+.delButton{
+		-fx-graphic: url("../icons/delete.png");
+    	-fx-background-color: transparent;
+}
+.delButton:hover{
+	    -fx-graphic: url("../icons/delete_hover.png");
+    	-fx-background-color: #162878;
+    	-fx-background-radius:4;
+}
+.play{
+			-fx-graphic: url("../icons/Play.png");
+    	-fx-background-color: transparent;
+    	-fx-text-fill:#b3c0f4;
+}
+.play:hover{
+	    -fx-graphic: url("../icons/Play_hover.png");
+    	-fx-background-color: #162878;
+    	-fx-background-radius:4;
+    	-fx-text-fill:#ffffff;
+    	
+}
+.close{
+		-fx-graphic: url("../icons/close.png");
+    	-fx-background-color: transparent;
+    	-fx-opacity: 1;
+}
+.close:hover{
+	    -fx-graphic: url("../icons/close_hover.png");
+    	-fx-background-color: #162878;
+    	-fx-background-radius:4;
+}
+.save{
+	    -fx-graphic: url("../icons/save.png");
+    	-fx-background-color: transparent;	
+    	-fx-background-radius:4;
+}
+.save:hover{
+	    -fx-graphic: url("../icons/save_hover.png");
+    	-fx-background-color: #162878;
+    	-fx-background-radius:4;
+}
+.close:pressed,.play:pressed,.delButton:pressed, .Enter:pressed,.Exit:pressed{
+	-fx-background-color: #132575;
+}
+.table-column {
+  -fx-alignment: CENTER;
+}
+.table-columnT{
+	-fx-background-color:#000000;
+}

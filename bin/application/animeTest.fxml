@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.anime">
+   <children>
+      <HBox prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Pane fx:id="righter" prefHeight="400.0" prefWidth="610.0" style="-fx-background-color: #B3C0F4;">
+               <children>
+                  <Button fx:id="btn" layoutX="322.0" layoutY="302.0" mnemonicParsing="false" onAction="#scla" prefHeight="32.0" prefWidth="49.0" text="Button" />
+               </children>
+            </Pane>
+            <Pane fx:id="lefter" prefHeight="400.0" prefWidth="0.0" style="-fx-background-color: #293B8B;" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

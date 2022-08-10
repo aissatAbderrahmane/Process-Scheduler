@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="500.0" maxWidth="700.0" minHeight="500.0" minWidth="700.0" prefHeight="500.0" prefWidth="700.0" style="-fx-background-color: #182a7a;" stylesheets="@application.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="374.0" prefWidth="700.0" styleClass="startIMG" />
+      <JFXToggleButton layoutX="38.0" layoutY="380.0" prefHeight="30.0" prefWidth="143.0" text="FIFO" textFill="WHITE" toggleColor="#8698e8" toggleLineColor="#223484" />
+      <JFXToggleButton layoutX="181.0" layoutY="380.0" prefHeight="41.0" prefWidth="143.0" text="Round Robin" textFill="WHITE" toggleColor="#8698e8" toggleLineColor="#223484" />
+      <JFXToggleButton layoutX="336.0" layoutY="380.0" prefHeight="30.0" prefWidth="143.0" text="Priorité" textFill="WHITE" toggleColor="#8698e8" toggleLineColor="#223484" />
+      <JFXToggleButton layoutX="500.0" layoutY="380.0" prefHeight="58.0" prefWidth="182.0" text="Priorité Préemptif" textFill="WHITE" toggleColor="#8698e8" toggleLineColor="#223484" />
+      <JFXToggleButton layoutX="181.0" layoutY="438.0" prefHeight="30.0" prefWidth="143.0" textFill="WHITE" toggleColor="#8698e8" toggleLineColor="#223484" />
+      <JFXToggleButton layoutX="336.0" layoutY="438.0" prefHeight="30.0" prefWidth="143.0" textFill="WHITE" toggleColor="#8698e8" toggleLineColor="#223484" />
+      <Button ellipsisString="" graphicTextGap="0.0" layoutX="583.0" layoutY="442.0" mnemonicParsing="false" styleClass="Enter" text="Entrer" textFill="#8698e8">
+         <font>
+            <Font name="HP Simplified" size="18.0" />
+         </font>
+      </Button>
+      <Button ellipsisString="" graphicTextGap="0.0" layoutX="14.0" layoutY="445.0" mnemonicParsing="false" styleClass="Exit" text="Sortir" textFill="#8698e8">
+         <font>
+            <Font name="HP Simplified" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
