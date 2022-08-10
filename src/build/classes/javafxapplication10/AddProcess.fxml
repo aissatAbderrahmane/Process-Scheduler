@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="531.0" prefWidth="422.0" style="-fx-background-color: #010A49;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication10.AjouterProcessus">
+   <children>
+      <JFXTextField fx:id="Tarrive" focusColor="WHITE" layoutX="24.0" layoutY="72.0" prefHeight="25.0" prefWidth="149.0" promptText="Temps Arrivé" styleClass="txtField" unFocusColor="#e5ff00" />
+      <JFXTextField fx:id="priorite" focusColor="WHITE" layoutX="231.0" layoutY="72.0" prefHeight="25.0" prefWidth="149.0" promptText="Priorité" styleClass="txtField" unFocusColor="#f6ff00" />
+      <JFXTextField fx:id="uc1" focusColor="#f2ff00" layoutX="37.0" layoutY="139.0" prefHeight="25.0" prefWidth="78.0" promptText="Unité Calcule" styleClass="txtField" unFocusColor="#4059a9" />
+      <JFXTextField fx:id="es" focusColor="#f2ff00" layoutX="125.0" layoutY="139.0" prefHeight="25.0" prefWidth="68.0" promptText="Entré Sortie" styleClass="txtField" unFocusColor="#4059a9" />
+      <JFXTextField fx:id="uc2" focusColor="#f2ff00" layoutX="209.0" layoutY="139.0" prefHeight="25.0" prefWidth="78.0" promptText="Unité Calcule" styleClass="txtField" stylesheets="@style.css" unFocusColor="#4059a9" />
+      <JFXTreeTableView fx:id="ProcessCalcules" layoutX="14.0" layoutY="197.0" prefHeight="263.0" prefWidth="390.0" />
+      <Pane prefHeight="42.0" prefWidth="422.0" style="-fx-background-color: #192A7A;">
+         <children>
+            <Label contentDisplay="CENTER" layoutX="155.0" layoutY="4.0" prefHeight="34.0" prefWidth="170.0" text="Ajouter Processus" textAlignment="CENTER" textFill="#eeff00">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <JFXButton ellipsisString="" graphicTextGap="0.0" layoutX="287.0" layoutY="481.0" prefHeight="33.0" prefWidth="33.0" styleClass="addProcessus" />
+      <JFXButton ellipsisString="" graphicTextGap="0.0" layoutX="334.0" layoutY="481.0" prefHeight="33.0" prefWidth="33.0" styleClass="ValideProc" />
+      <JFXButton fx:id="addcalc" ellipsisString="" graphicTextGap="0.0" layoutX="367.0" layoutY="135.0" onAction="#ajouterUnCalcule" prefHeight="33.0" prefWidth="33.0" styleClass="addCalcule" />
+      <JFXButton fx:id="delCalc" ellipsisString="" graphicTextGap="0.0" layoutX="327.0" layoutY="135.0" onAction="#DeleteCalcule" prefHeight="33.0" prefWidth="34.0" styleClass="DeleteCal" />
+   </children>
+</AnchorPane>

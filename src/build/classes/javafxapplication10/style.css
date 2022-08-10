@@ -1,0 +1,57 @@
+.fxIMG{
+    -fx-background-image: url("../icons/CPUs.jpg");
+}
+.txtField{
+    -fx-text-fill: #ffffff;
+}
+.forward{
+    -fx-graphic: url("../icons/forward.png");
+}
+.forward:hover{
+    -fx-graphic: url("../icons/forward_hover.png");
+}
+.NCPU{
+    -fx-graphic: url("../icons/forward.png");
+    -fx-background-color: transparent;
+    -fx-border-radius: 0;
+    -fx-background-radius: 0;
+}
+.NCPU:hover{
+    -fx-graphic: url("../icons/forward_hover.png");
+    -fx-background-color: transparent;
+}
+.tab{
+    -fx-text-fill: #000000;
+}
+.addProcessus{
+    -fx-graphic: url("../icons/addPRO.png");
+    -fx-background-color: transparent;
+}
+.addCalcule{
+        -fx-graphic: url("../icons/add.png");
+    -fx-background-color: transparent;
+}
+.ValideProc{
+        -fx-graphic: url("../icons/valide.png");
+    -fx-background-color: transparent;
+}
+.DeleteCal{
+        -fx-graphic: url("../icons/delete.png");
+    -fx-background-color: transparent;
+}
+.addProcessus:hover{
+    -fx-graphic: url("../icons/addPRO_hover.png");
+    -fx-background-color: transparent;
+}
+.addCalcule:hover{
+    -fx-graphic: url("../icons/add_hover.png");
+    -fx-background-color: transparent;
+}
+.ValideProc:hover{
+        -fx-graphic: url("../icons/valide_hover.png");
+    -fx-background-color: transparent;
+}
+.DeleteCal:hover{
+        -fx-graphic: url("../icons/delete_hover.png");
+    -fx-background-color: transparent;
+}

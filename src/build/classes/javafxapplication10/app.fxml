@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTreeTableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="800.0" style="-fx-background-color: #010A49;" stylesheets="@style.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication10.Application">
+   <children>
+      <Pane fx:id="menu" prefHeight="52.0" prefWidth="800.0" style="-fx-background-color: #192A7A;" />
+      <JFXTreeTableView fx:id="ProcessusTree" layoutX="28.0" layoutY="68.0" prefHeight="400.0" prefWidth="749.0" />
+      <JFXButton fx:id="ader" layoutX="566.0" layoutY="481.0" onAction="#AddToTable" prefHeight="25.0" prefWidth="169.0" text="Ajouter Des Processus" />
+   </children>
+</AnchorPane>
